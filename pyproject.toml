@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gmail-mailing"
+version = "0.1.0"
+description = ""
+authors = ["remmover <77463027+remmover@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "gmail_mailing"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google = "^3.0.0"
+google-api-python-client = "^2.111.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+pydantic = "^2.5.2"
+pydantic-settings = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
